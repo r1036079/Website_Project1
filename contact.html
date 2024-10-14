@@ -7,14 +7,27 @@
     <link rel="stylesheet" href="css/project1.css" />
     <style>
       .mb-10 {
-        margin-bottom: 20px;
+        margin-bottom: 25px;
       }
+        
     </style>
   </head>
   <body>
+    <nav class="navigation" id="navigation-head">
+      <a href="index.html">Start</a>
+      <a href="hobby.html">Hobby's</a>
+      <a href="ervaring.html">Ervaring</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="#" class="icon" onclick="toggleResponsiveClass()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
     <h1>Contact</h1>
     <hr />
+    <p>Zendé Thys</p>
     <p class="mb-10">Mail: zendethys@gmail.com</p>
+    <h2>Contact formulier</h2>
     <form method="post" action="#">
       <div>
         <label for="Naam">Naam: </label>
@@ -50,6 +63,12 @@
           placeholder="Heb je nog enkele vragen?"
         ></textarea>
       </div>
+      <div>
+        <input type="submit" value="Verzenden ">
+      </div>
     </form>
+    <footer class="copyR">
+      <p>&copy; 2024 - zende.be</p>
+  </footer>
   </body>
 </html>
