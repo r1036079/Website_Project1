@@ -61,7 +61,7 @@ hr {
       text-align: left;
   }
 }
-h1, h2, h3, p, form{
+body{
   font-family: "Noto Sans Display", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
