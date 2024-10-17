@@ -5,7 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Start</title>
     <link rel="stylesheet" href="css/project1.css">
-    <style></style>
+    <style>
+        .row{
+            display: grid;
+             grid-template-columns: 1fr 1fr; /* Twee kolommen */
+            gap: 20px; /* Ruimte tussen de kolommen */
+        }
+        ul{
+            list-style-type: disc;
+            padding: 5px 25px 10px; /* Boven, Rechts/Links, Onder */
+            border: 4px solid #1ed370; /* Standaard border voor de hele lijst */
+            width: 675px; /* Breedte van de lijst */
+        }
+        img{
+           margin-left: 225px;
+        }
+    </style>
 </head>
 <body>
     <nav class="navigation" id="navigation-head">
@@ -20,14 +35,38 @@
     </nav>
     <h1>Start/ Inhoud</h1>
     <hr>
-    <p class="inhoudT">Ik ben Zendé Thys, 19 jaar oud en woon te Turnhout. Ik studeer Graduaat Programmeren aan de Thomas
+    <h2>Over mezelf</h2>
+    <p>Ik ben Zendé Thys, 19 jaar oud en woon te Turnhout. Ik studeer Graduaat Programmeren aan de Thomas
         More in Geel. Hiervoor heb ik elektrische installaties gestudeerd aan de PT2O te Turnhout. 
-        Buiten me schooluren doe ik aan kickboks op amateurniveau, en ben ik ook studentmanager bij McDonalds Turnhout.
-        Maar buiten dit alles hou ik er ook van om te chillen met vrienden, Netflix
-        kijken,…
+        Ik begin me laatste tijd meer te verdiepen in technologie, de laatste tijd ben ik ook bezig met het verbteren van mijn vaardigheden
+        in webontwikkeling en programmeren. In me vrije tijd ben ik actief bezig met kickboksen, en vecht ook op amateurniveau. Daarnaast doe ik ook aan fitness, wat me ook helpt
+        om fit te blijven en mijn discipline te versterken. Buiten dit alles ben ik ook studentmanager bij Mcdonalds Turnhout. 
+    </p>
+    <p>
+        Ik beschouw mezelf als een leergierige en ambitieuze jongeman. Ik streef er altijd naar om nieuwe vaardigheden te ontwikkelen en mijn kennis uit te breiden.
+        Mijn doel is om een succesvolle carrière op te bouwen in de IT-Sector, waar ik mijn vaardigheden kan toepassen en bijdragen aan vernieuwde projecten.
+        Ik kijk ernaar uit om meer te leren en mezelf te blijven ontwikkelen en verbeteren.
     </p>
     <img src="Afbeeldingen/image5.jpeg" alt="FotoSchool" height="750" width="350">
     <img src="Afbeeldingen/image7.jpeg" alt="FotoProclamatie" height="750" width="350">
+    <div class="row">
+        <div class="col">
+            <ul>
+                <h2><strong>Sterke Punten</strong> </h2>
+                <li><strong>Leergierig:</strong> Je bent altijd bereid om nieuwe dingen te leren en je kennis uit te breiden.</li>
+                <li><strong>Ambitieus:</strong> Je hebt duidelijke doelen en zet je volledig in om deze te bereiken.</li>
+                <li><strong>Doorzettingsvermogen</strong>: Of het nu om je hobby's zoals kickboksen en fitness gaat of om je studies, je geeft niet op en werkt hard om beter te worden.</li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul>
+                <h2><strong>Zwakke Punten</strong> </h2>
+                <li><strong>Perfectionisme:</strong> Soms ben je te kritisch op jezelf en wil je alles perfect doen, wat soms tot stress kan leiden.</li>
+                <li><strong>Moeilijk 'nee' zeggen:</strong> Omdat je graag anderen helpt, kun je soms te veel op je bord nemen.</li>
+                <li><strong>Geduld:</strong> Je wilt snel resultaten zien, en dat kan soms lastig zijn bij taken die tijd en geduld vragen.</li>
+            </ul>
+        </div>
+    </div>
     <footer class="copyR">
         <p>&copy; 2024 - zende.be</p>
     </footer>
