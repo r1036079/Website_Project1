@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zendé Thys - Contact</title>
+    <link
+      rel="shortcut icon"
+      href="Img_Favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/project1.css" />
+    <style>
+      .mb-10 {
+        margin-bottom: 25px;
+        text-align: center;
+      }
+      .naam {
+        text-align: center;
+      }
+      .contactformulier {
+        text-align: center;
+      }
+      form {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      input[type="text"],
+      input[type="password"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+      }
+
+      textarea {
+        resize: vertical;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navigation" id="navigation-head">
+      <a href="index.html">Start</a>
+      <a href="hobby.html">Hobby's</a>
+      <a href="ervaring.html">Ervaring</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="#" class="icon" onclick="toggleResponsiveClass()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+    <h1>Contact</h1>
+    <hr />
+    <p class="naam">Zendé Thys</p>
+    <p class="mb-10">Mail: r1036079@student.thomasmore.be</p>
+    <h2 class="contactformulier">Contact formulier</h2>
+    <form method="post" action="#">
+      <div>
+        <label for="Naam">Naam: </label>
+        <input type="Naam" id="Naam" name="Naam" placeholder="Naam" />
+      </div>
+      <div>
+        <label for="E-mailadres">E-mailadres: </label>
+        <input
+          type="E-mailadres"
+          id="E-mailadres"
+          name="E-mailadres"
+          placeholder="E-mailadres"
+        />
+      </div>
+      <div>
+        <label for="Onderwerp">E-Onderwerp: </label>
+        <input
+          type="E-Onderwerp"
+          id="E-Onderwerp"
+          name="E-Onderwerp"
+          placeholder="Onderwerp"
+        />
+      </div>
+      <div>
+        <label for="Vragen">Vragen</label>
+      </div>
+      <div>
+        <textarea
+          name="Vragen"
+          id="Vragen"
+          cols="50"
+          rows="10"
+          placeholder="Heb je nog enkele vragen?"
+        ></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Verzenden " />
+      </div>
+    </form>
+    <footer class="copyR">
+      <p>&copy; 2024 - zende.be</p>
+    </footer>
+  </body>
+</html>
